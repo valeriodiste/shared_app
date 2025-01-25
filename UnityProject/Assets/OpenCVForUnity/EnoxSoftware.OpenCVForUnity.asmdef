@@ -1,0 +1,16 @@
+{
+    "name": "EnoxSoftware.OpenCVForUnity",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "Android"
+    ],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

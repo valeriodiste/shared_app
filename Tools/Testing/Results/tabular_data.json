@@ -1,0 +1,271 @@
+{
+  "detection": {
+    "ARFoundation": {
+      "Sample #1": {
+        "Translation Error": 0.16902049041834222,
+        "Rotation Error": 0.9943272540444615
+      },
+      "Sample #2": {
+        "Translation Error": 0.34502711105945544,
+        "Rotation Error": 0.8421684777707961
+      },
+      "Sample #3": {
+        "Translation Error": 0.16819369060260816,
+        "Rotation Error": 0.9182556466802677
+      },
+      "Sample #4": {
+        "Translation Error": 0.301128274108293,
+        "Rotation Error": 0.7302195918332988
+      },
+      "Sample #5": {
+        "Translation Error": 0.1722504993562112,
+        "Rotation Error": 0.5698422532068291
+      },
+      "Average": {
+        "Translation Error": 0.231124013108982,
+        "Rotation Error": 0.8109626447071306,
+        "Undetected Frames": 5
+      }
+    },
+    "ORB": {
+      "Sample #1": {
+        "Translation Error": 0.7496844316671772,
+        "Rotation Error": 2.702737892561194
+      },
+      "Sample #2": {
+        "Translation Error": 2.179155897563987,
+        "Rotation Error": 2.979643227651003
+      },
+      "Sample #3": {
+        "Translation Error": 0.6375139003032526,
+        "Rotation Error": 2.2446823823206956
+      },
+      "Sample #4": {
+        "Translation Error": 0.9344144085884192,
+        "Rotation Error": 1.9694306677732851
+      },
+      "Sample #5": {
+        "Translation Error": 0.1576724054163107,
+        "Rotation Error": 1.023091529535855
+      },
+      "Average": {
+        "Translation Error": 0.9316882087078294,
+        "Rotation Error": 2.1839171399684063,
+        "Undetected Frames": 23
+      }
+    },
+    "SIFT": {
+      "Sample #1": {
+        "Translation Error": 0.13784866247299904,
+        "Rotation Error": 1.2381695405202933
+      },
+      "Sample #2": {
+        "Translation Error": 0.29898187726175335,
+        "Rotation Error": 1.4799617921544899
+      },
+      "Sample #3": {
+        "Translation Error": 0.13944295362721468,
+        "Rotation Error": 1.5054869068620806
+      },
+      "Sample #4": {
+        "Translation Error": 0.2644762752795191,
+        "Rotation Error": 1.1044240151733469
+      },
+      "Sample #5": {
+        "Translation Error": 0.18643559901474574,
+        "Rotation Error": 0.7743542183852568
+      },
+      "Average": {
+        "Translation Error": 0.20543707353124638,
+        "Rotation Error": 1.2204792946190934,
+        "Undetected Frames": 3
+      }
+    },
+    "SURF": {
+      "Sample #1": {
+        "Translation Error": 0.3581282557247015,
+        "Rotation Error": 1.6479615969196393
+      },
+      "Sample #2": {
+        "Translation Error": 0.9945668617236045,
+        "Rotation Error": 2.052692609462836
+      },
+      "Sample #3": {
+        "Translation Error": 0.33433030635522176,
+        "Rotation Error": 1.9038711083367592
+      },
+      "Sample #4": {
+        "Translation Error": 0.5727435383915769,
+        "Rotation Error": 1.5155580411246081
+      },
+      "Sample #5": {
+        "Translation Error": 0.17607099951093044,
+        "Rotation Error": 0.981618100720541
+      },
+      "Average": {
+        "Translation Error": 0.487167992341207,
+        "Rotation Error": 1.6203402913128766,
+        "Undetected Frames": 10
+      }
+    },
+    "AKAZE": {
+      "Sample #1": {
+        "Translation Error": 0.24052183309843797,
+        "Rotation Error": 1.2346621217093043
+      },
+      "Sample #2": {
+        "Translation Error": 0.7211549916249148,
+        "Rotation Error": 1.5548280880788374
+      },
+      "Sample #3": {
+        "Translation Error": 0.22095106573476658,
+        "Rotation Error": 1.5144832800022505
+      },
+      "Sample #4": {
+        "Translation Error": 0.42690081443719974,
+        "Rotation Error": 1.2751473717888964
+      },
+      "Sample #5": {
+        "Translation Error": 0.17727995855501116,
+        "Rotation Error": 1.0531504283965514
+      },
+      "Average": {
+        "Translation Error": 0.35736173269006605,
+        "Rotation Error": 1.326454257995168,
+        "Undetected Frames": 16
+      }
+    }
+  },
+  "tracking": {
+    "ARFoundation": {
+      "Sample #1": {
+        "Translation Error": 0.8902158572716802,
+        "Rotation Error": 0.8488390150718867
+      },
+      "Sample #2": {
+        "Translation Error": 2.3043570104411355,
+        "Rotation Error": 0.6696507404018038
+      },
+      "Sample #3": {
+        "Translation Error": 0.8085964849079064,
+        "Rotation Error": 0.6968030642998629
+      },
+      "Sample #4": {
+        "Translation Error": 1.1292242203386167,
+        "Rotation Error": 0.5051657404337475
+      },
+      "Sample #5": {
+        "Translation Error": 0.5777802695636729,
+        "Rotation Error": 0.54510928613817
+      },
+      "Average": {
+        "Translation Error": 1.1420347685046022,
+        "Rotation Error": 0.6531135692690941
+      }
+    },
+    "ImageTracking": {
+      "Sample #1": {
+        "Translation Error": 6.466735162856797,
+        "Rotation Error": 1.4672812912778719
+      },
+      "Sample #2": {
+        "Translation Error": 13.074239653798033,
+        "Rotation Error": 1.4934687532194073
+      },
+      "Sample #3": {
+        "Translation Error": 4.630656402946295,
+        "Rotation Error": 1.281418287282824
+      },
+      "Sample #4": {
+        "Translation Error": 6.669463129234622,
+        "Rotation Error": 1.5495864056365156
+      },
+      "Sample #5": {
+        "Translation Error": 0.5941555742445008,
+        "Rotation Error": 0.8921691958244042
+      },
+      "Average": {
+        "Translation Error": 6.287049984616049,
+        "Rotation Error": 1.3367847866482048
+      }
+    },
+    "SensorTracking": {
+      "Sample #1": {
+        "Translation Error": 12.124688480643192,
+        "Rotation Error": 3.921249088121625
+      },
+      "Sample #2": {
+        "Translation Error": 32.1630722777862,
+        "Rotation Error": 5.087330259717005
+      },
+      "Sample #3": {
+        "Translation Error": 8.589843651593954,
+        "Rotation Error": 3.111142074392535
+      },
+      "Sample #4": {
+        "Translation Error": 13.481400984063272,
+        "Rotation Error": 4.342368255041842
+      },
+      "Sample #5": {
+        "Translation Error": 0.5984269093161544,
+        "Rotation Error": 2.4570466799139834
+      },
+      "Average": {
+        "Translation Error": 13.391486460680557,
+        "Rotation Error": 3.783827271437398
+      }
+    },
+    "SimpleFusionTracking": {
+      "Sample #1": {
+        "Translation Error": 10.120875554073914,
+        "Rotation Error": 4.6688828806826494
+      },
+      "Sample #2": {
+        "Translation Error": 28.565190121508593,
+        "Rotation Error": 2.808795961255757
+      },
+      "Sample #3": {
+        "Translation Error": 8.438573054811059,
+        "Rotation Error": 3.247188221031448
+      },
+      "Sample #4": {
+        "Translation Error": 9.905257653238477,
+        "Rotation Error": 2.951044520346506
+      },
+      "Sample #5": {
+        "Translation Error": 0.6070881030300715,
+        "Rotation Error": 2.0227418306230485
+      },
+      "Average": {
+        "Translation Error": 11.527396897332423,
+        "Rotation Error": 3.1397306827878815
+      }
+    },
+    "KalmanFusionTracking": {
+      "Sample #1": {
+        "Translation Error": 7.2579095473712085,
+        "Rotation Error": 2.429890629077184
+      },
+      "Sample #2": {
+        "Translation Error": 16.318258167037186,
+        "Rotation Error": 2.067893121564559
+      },
+      "Sample #3": {
+        "Translation Error": 5.97066494217891,
+        "Rotation Error": 2.2102841621688887
+      },
+      "Sample #4": {
+        "Translation Error": 8.062301847389826,
+        "Rotation Error": 1.9058610400679994
+      },
+      "Sample #5": {
+        "Translation Error": 0.5845648515659346,
+        "Rotation Error": 1.121089980002533
+      },
+      "Average": {
+        "Translation Error": 7.638739871108614,
+        "Rotation Error": 1.9470037865762329
+      }
+    }
+  }
+}

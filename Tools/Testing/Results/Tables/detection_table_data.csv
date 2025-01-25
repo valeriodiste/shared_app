@@ -1,0 +1,6 @@
+Algorithm,Errors,Translation Error,Rotation Error,Recognition Execution Time,Pose Detection Execution Time
+ARFoundation,5,0.231,0.8,13.376,6.484
+ORB,23,0.932,2.2,12.18,16.078
+SIFT,3,0.205,1.2,68.376,54.452
+SURF,10,0.487,1.6,32.221,32.933
+AKAZE,16,0.357,1.3,27.133,14.957

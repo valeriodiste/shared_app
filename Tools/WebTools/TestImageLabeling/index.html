@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Labeling Tool</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="main">
+		<div id="controls">
+			<div>Image Controls</div>
+			<input type="file" id="image-input" accept="image/*" multiple>
+			<input type="file" id="json-input" accept=".json">
+			<div>
+				<button id="prev-image">Previous</button>
+				<button id="next-image">Next</button>
+			</div>
+			<div class="checkbox-container" title="The first 4 clicks onto the image will define the coordinates of the 4 control points.">
+				<input type="checkbox" id="click-to-place">
+				<label for="click-to-place">Click to place control points</label>
+			</div>
+			<div id="image-info"></div>
+			<div class="checkbox-container">
+				<input type="checkbox" id="autosave" checked>
+				<label for="autosave">Auto-save when moving control points</label>
+			</div>
+			<div>
+				<button id="reset-button">Reset</button>
+				<button id="save-button">Save</button>
+			</div>
+			<div>
+				<button id="download-all-button">Download ALL</button>
+				<button id="download-button">Download</button>
+			</div>
+		</div>
+		<div id="canvas-container">
+			<canvas id="canvas" width="1080" height="1920" style="background-color: black;">
+				Your browser does not support HTML5 canvas.
+			</canvas>
+			<div id="control-points">
+				<div id="control-point-tl" class="control-point" style="display: none;"></div>
+				<div id="control-point-tr" class="control-point" style="display: none;"></div>
+				<div id="control-point-bl" class="control-point" style="display: none;"></div>
+				<div id="control-point-br" class="control-point" style="display: none;"></div>
+			</div>
+		</div>
+		
+	</div>
+	<div id="loading" class="hidden">
+		Loading...
+	</div>
+	<script src="script.js"></script>
+</body>

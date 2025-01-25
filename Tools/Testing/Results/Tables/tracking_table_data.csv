@@ -1,0 +1,6 @@
+Algorithm,Translation Error,Rotation Error,Execution Time
+ARFoundation,1.142,0.7,8.923
+ImageTracking,6.287,1.3,22.089
+SensorTracking,13.391,3.8,3.086
+SimpleFusionTracking,11.527,3.1,24.482
+KalmanFusionTracking,7.639,1.9,29.27
